@@ -24,7 +24,4 @@ out/fonts.dir: $(pcf) out/fonts.scale
 clean:
 	rm -rf out *.bak
 
-UnicodeData.txt:
-	curl http://www.unicode.org/Public/$(unicode_version)/ucd/UnicodeData.txt > $@
-
 .PHONY: all build clean
