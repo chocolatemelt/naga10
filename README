@@ -5,4 +5,6 @@ a cute japanese bitmap font found on the internet; all credits to respective aut
 
 couldn't find this source in the AUR so here i am compiling it by myself...
 
+comes with diffs for maru10.bdf and min10.bdf, so if you have those you can throw them in too.
+
 requires: bdftopcf
