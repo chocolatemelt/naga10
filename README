@@ -1,5 +1,8 @@
-# naga10
+naga10
+======
 
 a cute japanese bitmap font found on the internet; all credits to respective authors (see README_JP)
 
 couldn't find this source in the AUR so here i am compiling it by myself...
+
+requires: bdftopcf
