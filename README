@@ -3,8 +3,13 @@ naga10
 
 a cute japanese bitmap font found on the internet; all credits to respective authors (see README_JP)
 
-couldn't find this source in the AUR so here i am compiling it by myself...
+comes with diffs for maru10.bdf and min10.bdf, so if you have those you can throw them in too - they're not free though
 
-comes with diffs for maru10.bdf and min10.bdf, so if you have those you can throw them in too.
+fontconfig won't recognize this font, so you'll have to check if it's installed via xlsfonts
+
+optional alias.sh script to alias the long unreadable font name to naga10/naga10b. provides a backup of course, but still somewhat hacky.
+if not installing via AUR, might as well put them in your own folder and provide your own fonts.alias (or even better, just xset fp the out/ directory)
 
 requires: bdftopcf
+
+now on the AUR - bdf-naga10-git
