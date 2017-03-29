@@ -7,8 +7,7 @@ comes with diffs for maru10.bdf and min10.bdf, so if you have those you can thro
 
 fontconfig won't recognize this font, so you'll have to check if it's installed via xlsfonts
 
-optional alias.sh script to alias the long unreadable font name to naga10/naga10b. provides a backup of course, but still somewhat hacky.
-if not installing via AUR, might as well put them in your own folder and provide your own fonts.alias (or even better, just xset fp the out/ directory)
+run ./alias.sh as superuser to put the aliases in fonts.alias into /usr/share/fonts/misc/fonts.alias
 
 requires: bdftopcf
 
